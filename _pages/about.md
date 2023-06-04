@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "个人简历"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 教育经历
 ======
@@ -21,6 +19,28 @@ This is the front page of a website that is powered by the [academicpages templa
 具备扎实的数学基础，能熟练运用Python、Matlab等脚本语言进行算法开发，能使用C语言实现实际工程  
 CET 4/6，能无障碍进行专业文献的阅读写作和行业内学术交流  
 计算机二级（C++, MySQL）、计算机三级（计算机网络技术）、计算机四级（网络工程师）
+
+发表论文
+======
+我们提出使用角点响应特征图来定位人工文本区域；采用投影法将候选文本区域分割成候选文本行；构建融合不同语义层级特征的卷积神经网络，进行真假文本行的判别；对判定为真的文本行图片进行基于颜色和位置五维信息的FCM聚类分层，提取出干净的文本层；将文本层图片送入OCR软件，实现视频中人工文本的识别。该工作已发表在IEEE Access，导师一作本人二作。  
+W. Lu, H. Sun, J. Chu, X. Huang and J. Yu, "A Novel Approach for Video Text Detection and Recognition Based on a Corner Response Feature Map and Transferred Deep Convolutional Neural Network," IEEE Access, vol. 6, pp. 40198-40211, 2018.
+
+项目经验
+======
+视频事件识别  
+调研当前视频事件识别方法和数据集，搭建环境并复现LRCN等架构，提出利用前景背景分别提取特征并进行融合的思路，目前正处于论文学习和实验探索阶段。
+
+学校工作
+======
+天津大学电气自动化与信息工程学院信息与通信工程二班班长  
+天津大学电气自动化与信息工程学院研究生会骨干（学术部）
+
+奖项荣誉
+======
+天津大学原电子信息工程学院院长奖  
+2016年BOE创新挑战赛全国三等奖，获得Special Offer  
+天津大学校级“三好学生”   
+天津大学优秀学生干部
 
 Site-wide configuration
 ------
