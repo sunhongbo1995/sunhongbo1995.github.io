@@ -15,14 +15,12 @@ This is the front page of a website that is powered by the [academicpages templa
 2016.09-至今     天津大学 电气与信息工程学院 信息与通信工程 硕士生（保研）
 2012.09-2016.07 天津大学 电子信息工程学院   电子信息工程   本科生
 
-Getting started
+个人能力
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+理解熟习ML、DL中的算法和模型，在计算机视觉和模式识别领域有一定的科研经验，能熟练运用Keras等深度学习框架搭建神经网络
+具备扎实的数学基础，能熟练运用Python、Matlab等脚本语言进行算法开发，能使用C语言实现实际工程
+CET 4/6，能无障碍进行专业文献的阅读写作和行业内学术交流
+计算机二级（C++, MySQL）、计算机三级（计算机网络技术）、计算机四级（网络工程师）
 
 Site-wide configuration
 ------
