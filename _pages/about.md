@@ -15,6 +15,10 @@ redirect_from:
 
 个人能力
 ======
+
+<p align="justify">理解熟习ML、DL中的算法和模型，在计算机视觉和模式识别领域有一定的科研经验，能熟练运用Keras等深度学习框架搭建神经网络</p>
+
+
 理解熟习ML、DL中的算法和模型，在计算机视觉和模式识别领域有一定的科研经验，能熟练运用Keras等深度学习框架搭建神经网络  
 具备扎实的数学基础，能熟练运用Python、Matlab等脚本语言进行算法开发，能使用C语言实现实际工程  
 CET 4/6，能无障碍进行专业文献的阅读写作和行业内学术交流  
@@ -22,7 +26,7 @@ CET 4/6，能无障碍进行专业文献的阅读写作和行业内学术交流
 
 发表论文
 ======
-我们提出使用角点响应特征图来定位人工文本区域；采用投影法将候选文本区域分割成候选文本行；构建融合不同语义层级特征的卷积神经网络，进行真假文本行的判别；对判定为真的文本行图片进行基于颜色和位置五维信息的FCM聚类分层，提取出干净的文本层；将文本层图片送入OCR软件，实现视频中人工文本的识别。该工作已发表在IEEE Access，导师一作本人二作。  
+<p align="justify">我们提出使用角点响应特征图来定位人工文本区域；采用投影法将候选文本区域分割成候选文本行；构建融合不同语义层级特征的卷积神经网络，进行真假文本行的判别；对判定为真的文本行图片进行基于颜色和位置五维信息的FCM聚类分层，提取出干净的文本层；将文本层图片送入OCR软件，实现视频中人工文本的识别。该工作已发表在IEEE Access，导师一作本人二作。</p>
 W. Lu, H. Sun, J. Chu, X. Huang and J. Yu, "A Novel Approach for Video Text Detection and Recognition Based on a Corner Response Feature Map and Transferred Deep Convolutional Neural Network," IEEE Access, vol. 6, pp. 40198-40211, 2018.
 
 项目经验
