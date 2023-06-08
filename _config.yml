@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "孙宏博"
   avatar           : "sunhongbo_profile.png"
-  bio              : "博士生\n多媒体信息处理研究室\n北京大学王选计算机研究所"
+  bio              : "博士生\n<a href="http://www.wict.pku.edu.cn/mipl/" >多媒体信息处理研究室</a>\n北京大学王选计算机研究所"
   location         : "北京市海淀区 中关村北大街128号"
   employer         :
   googlescholar    : "https://scholar.google.com.hk/citations?user=w48SDn8AAAAJ&hl=zh-CN&oi=ao"
