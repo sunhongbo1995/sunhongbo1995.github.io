@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "个人简历"
+title: "Resume"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,10 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Research Directions
-Fine-Grained Visual Analysis
-
-Education
-Ph.D. Candidate, Computer Application Technology, Wangxuan Institute of Computer Technology, Peking University, 2019 - Now
-Master, Information and Communication Engineering, School of Electrical and Information Engineering, Tianjin University, 2016 - 2019
-B.S., Electronic Information Engineering, School of Electronic Information Engineering, Tianjin University, 2012 - 2016
+Biography<br />
+I am a Ph.D. Candidate major in computer application technology at Peking University. My research interests include fine-grained visual recognition and multimodal content analysis. More information can be found in my <a href="https://sunhongbo1995.github.io/files/CV.pdf
+" >CV</a>.
