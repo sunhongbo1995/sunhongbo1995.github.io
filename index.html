@@ -1,369 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>孙宏博 - Homepage</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        background: #f9f9f9;
-        color: #333;
-        line-height: 1.6;
-      }
-      nav {
-        background: #800000;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        padding: 10px 0;
-        position: sticky;
-        top: 0;
-        z-index: 100;
-      }
-      nav a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      nav a:hover {
-        text-decoration: underline;
-      }
-      .container {
-        margin: 20px 150px 20px 100px;
-        display: flex;
-      }
-      /* 左边固定头像栏 */
-      .sidebar {
-        width: 220px;
-        flex-shrink: 0;
-        position: sticky;
-        top: 80px;
-        align-self: flex-start;
-        text-align: center;
-        padding-right: 20px;
-      }
-      .sidebar img {
-        width: 160px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-      }
-      .subtitle {
-        font-size: 14px;
-        color: #666;
-        margin-bottom: 10px;
-      }
-      .contact a {
-        display: block;
-        color: #800000;
-        text-decoration: none;
-        font-size: 14px;
-        margin: 3px 0;
-      }
-      .contact a:hover {
-        text-decoration: underline;
-      }
-      /* 右边主要内容 */
-      .main {
-        flex: 1;
-      }
-      .main section {
-        margin-bottom: 40px;
-      }
-      h2 {
-        border-bottom: 2px solid #ddd;
-        padding-bottom: 5px;
-        margin-top: 10px;
-      }
-      ul {
-        padding-left: 20px;
-      }
-      footer {
-        background: #800000;
-        color: white;
-        text-align: center;
-        padding: 15px;
-        margin-top: 40px;
-      }
-      .paper {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        margin-bottom: 30px;
-        background: #fff;
-        padding: 15px;
-        border-radius: 10px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      }
-      .paper img {
-        width: 200px;
-        border-radius: 5px;
-      }
-      .paper h3 {
-        margin: 0;
-        font-size: 18px;
-        color: rgb(55, 84, 141);
-        font-family: "Times New Roman", Times, serif;
-      }
-      .paper p {
-        margin: 5px 0;
-      }
-      .work h3 {
-        margin: 0 0 0 15px;
-        font-size: 18px;
-      }
-      .work p {
-        margin: 0 0 20px 15px;
-      }
-    </style>
-  </head>
-  <body>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#news">News</a>
-      <a href="#publications">Publications</a>
-      <!-- <a href="#related-work">Related Work</a> -->
-      <a href="#education">Education</a>
-      <a href="#honors">Honors</a>
-      <a href="#activities">Activities</a>
-    </nav>
 
-    <div class="container">
-      <!-- 左边头像栏 -->
-      <aside class="sidebar">
-        <img src="images/sunhongbo.png" alt="Profile Photo" />
-        <div class="subtitle">
-          研究方向：多模态大模型、多模态内容理解、细粒度视觉分析
-        </div>
-        <div class="contact">
-        Researcher at TeleAI <br>（中国电信人工智能研究院）<br> 
+<head>
+  <meta charset="UTF-8" />
+  <title>孙宏博 - Homepage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: #800000;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      margin: 20px 150px 20px 100px;
+      display: flex;
+    }
+
+    /* 左边固定头像栏 */
+    .sidebar {
+      width: 220px;
+      flex-shrink: 0;
+      position: sticky;
+      top: 80px;
+      align-self: flex-start;
+      text-align: center;
+      padding-right: 20px;
+    }
+
+    .sidebar img {
+      width: 160px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .contact a {
+      display: block;
+      color: #800000;
+      text-decoration: none;
+      font-size: 14px;
+      margin: 3px 0;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* 右边主要内容 */
+    .main {
+      flex: 1;
+    }
+
+    .main section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-top: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background: #800000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    .paper {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 30px;
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .paper img {
+      width: 200px;
+      height: 125px;
+      object-fit: fill;
+      border-radius: 5px;
+    }
+
+    .paper h3 {
+      margin: 0;
+      font-size: 18px;
+      color: rgb(55, 84, 141);
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .paper p {
+      margin: 5px 0;
+    }
+
+    .work h3 {
+      margin: 0 0 0 15px;
+      font-size: 18px;
+    }
+
+    .work p {
+      margin: 0 0 20px 15px;
+    }
+
+    #news a {
+      text-decoration: none;
+      /* 默认无下划线 */
+    }
+
+    #news a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#news">News</a>
+    <a href="#publications">Publications</a>
+    <!-- <a href="#related-work">Related Work</a> -->
+    <a href="#education">Education</a>
+    <a href="#honors">Honors</a>
+    <a href="#activities">Activities</a>
+  </nav>
+
+  <div class="container">
+    <!-- 左边头像栏 -->
+    <aside class="sidebar">
+      <img src="images/sunhongbo.png" alt="Profile Photo" />
+      <div class="subtitle">
+        研究方向：多模态大模型、多模态内容理解、细粒度视觉分析
+      </div>
+      <div class="contact">
+        Researcher at TeleAI <br>（中国电信人工智能研究院）<br>
         <a href="mailto:sunhongbo@pku.edu.cn">sunhongbo@pku.edu.cn</a>
+      </div>
+    </aside>
+
+    <!-- 右边主要内容 -->
+    <main class="main">
+      <section id="about">
+        <h2>👨‍💻 孙宏博</h2>
+        <p style="  text-align: justify;text-justify: inter-ideograph;">
+          孙宏博，博士毕业于北京大学，入选2025年度北京“高创计划”青年人才托举工程，北京图象图形学学会BSIG
+          2024优博，现任中电信人工智能科技有限公司视觉算法工程师。研究领域为多模态大模型、细粒度视觉分析，参与多模态基座大模型TeleMM和万物布控系统Telesearch2.0研发，TeleMM在国际权威评测MMMU、MME、国内权威评测OpenCompass（2024总榜单）上分别排名第一、第二、第三名。发表IEEE
+          Trans.和CCF
+          A类论文TIP、TMM、IJCAI、AAAI、ACM MM等10余篇，2次参加国际权威评测TRECVID视频语义搜索比赛，均获第一名。
+        </p>
+      </section>
+
+      <section id="news">
+        <h2>🔥 News</h2>
+        <ul>
+
+          <li>
+            <b>2025.09</b> – 发布视频理解大模型强化学习开源项目<a href="https://github.com/Hui-design/TSPO"><b
+                style="color: rgb(51, 122, 183);">&nbsp;TSPO&nbsp;</b></a>，在VideMME、LVBench、MLVU等视频理解权威评测中均排名前五。
+          </li>
+
+
+          <li>
+            <b>2025.07</b> – 入选2025年度北京“高创计划”青年人才托举工程。
+          </li>
+
+          <li>
+            <b>2024.12</b> – 多模态大模型 TeleMM 在 OpenCompass 2024
+            总榜单排名第三，超过GPT-4o，作为基础大模型广泛应用于电信的社会安防、城市治理、交通管治等实际业务。
+          </li>
+
+          <li>
+            <b>2024.09</b> – 1篇论文被TIP
+            接收。
+          </li>
+
+          <li>
+            <b>2024.08</b> – 博士学位论文获评“北京图象图形学学会 BSIG 2024
+            优秀博士学位论文奖”。
+          </li>
+
+          <li>
+            <b>2024.07</b> –
+            加入中电信人工智能科技有限公司，担任视觉算法工程师，研发多模态基座大模型及其垂直细分领域应用。
+          </li>
+
+          <li>
+            <b>2024.07</b> –
+            北京大学计算机应用技术专业博士毕业，获得理学博士学位。
+          </li>
+          
+          <li>
+            <b>2024.04</b> –
+            1篇论文被IJCAI接收。
+          </li>
+
+          <li>
+            <b>2023.12</b> –
+            1篇论文被AAAI 2024接收。
+          </li>
+          <li>
+            <b>2023.11</b> –
+            1篇论文被TMM接收。
+          </li>
+          <li>
+            <b>2023.07</b> –
+            1篇论文被ACM MM接收。
+          </li>
+          <li>
+            <b>2022.06</b> –
+            1篇论文被ACM MM接收。
+          </li>
+
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2>📝 代表性论文</h2>
+        <div class="paper">
+          <img src="images/tspo.png" alt="TSPO" />
+          <div>
+            <h3>
+              TSPO: Temporal Sampling Policy Optimization for Long-form Video Language Understanding
+            </h3>
+            <p>
+              Canhui Tang, Zifan Han, <b>Hongbo Sun</b>, Sanping Zhou, Xuchong Zhang,
+              Xin Wei, Ye Yuan, Huayu Zhang, Jinglin Xu and Hao Sun<br />
+              [<a href="https://arxiv.org/pdf/2508.04369" target="_blank"><b>Paper</b></a>]&nbsp;[<a
+                href="https://github.com/Hui-design/TSPO?tab=readme-ov-file" target="_blank"><b>Code</b></a>]
+            </p>
+          </div>
         </div>
-      </aside>
 
-      <!-- 右边主要内容 -->
-      <main class="main">
-        <section id="about">
-          <h2>👨‍💻 孙宏博</h2>
-          <p>
-            孙宏博，博士毕业于北京大学，入选2025年度北京“高创计划”青年人才托举工程，北京图象图形学学会BSIG
-            2024优博，现任中电信人工智能科技有限公司视觉算法工程师。研究领域为多模态大模型、细粒度视觉分析，参与多模态基座大模型TeleMM和万物布控系统Telesearch2.0研发，TeleMM在国际权威评测MMMU、MME、国内权威评测OpenCompass（2024总榜单）上分别排名第一、第二、第三名。发表IEEE
-            Trans.和CCF
-            A类论文等10余篇，2次参加国际权威评测TRECVID视频语义搜索比赛，均获第一名。
-          </p>
-        </section>
-
-        <section id="news">
-          <h2>🔥 News</h2>
-          <ul>
-
-            <li>
-              <b>2025.09</b> – 发布视频理解大模型强化学习开源项目<a
-                  href="https://github.com/Hui-design/TSPO"
-                  ><b>TSPO</b></a
-                >，在VideMME、LVBench、MLVU等视频理解权威评测中均排名前五。
-            </li>
-
-
-            <li>
-              <b>2025.07</b> – 入选2025年度北京“高创计划”青年人才托举工程。
-            </li>
-
-            <li>
-              <b>2024.12</b> – 多模态大模型 TeleMM 在 OpenCompass 2024
-              总榜单排名第三，超过GPT-4o，作为基础大模型广泛应用于电信的社会安防、城市治理、交通管治等实际业务。
-            </li>
-
-            <li>
-              <b>2024.09</b> – 1篇论文被TIP 2024
-              接收。
-            </li>
-
-            <li>
-              <b>2024.08</b> – 博士学位论文获评“北京图象图形学学会 BSIG 2024
-              优秀博士学位论文奖”。
-            </li>
-
-            <li>
-              <b>2024.07</b> –
-              加入中电信人工智能科技有限公司，担任视觉算法工程师，研发多模态基座大模型及其垂直细分领域应用。
-            </li>
-
-            <li>
-              <b>2024.07</b> –
-              北京大学计算机应用技术专业博士毕业，获得理学博士学位。
-            </li>
-
-            <li>
-              <b>2024.04</b> –
-              1篇论文被IJCAI 2024接收。
-            </li>
-
-          </ul>
-        </section>
-
-        <section id="publications">
-          <h2>📝 代表性论文</h2>
-
-
-          <div class="paper">
-            <img src="images/simofe.png" alt="SIM-OFE" />
-            <div>
-              <h3>
-                SIM-OFE: Structure Information Mining and Object-aware Feature
-                Enhancement for Fine-Grained Visual Categorization
-              </h3>
-              <p>
-                <b>Hongbo Sun</b>, Xiangteng He, Jinglin Xu and Yuxin Peng<br />
-                <i
-                  >IEEE Transactions on Image Processing (TIP), Vol. 33, pp.
-                  5312–5326, 2024. (CCF A)</i
-                >
-                [<a
-                  href="https://ieeexplore.ieee.org/abstract/document/10684043"
-                  target="_blank"
-                  ><b>Paper</b></a
-                >]
-              </p>
-            </div>
+        <div class="paper">
+          <img src="images/simofe.png" alt="SIM-OFE" />
+          <div>
+            <h3>
+              SIM-OFE: Structure Information Mining and Object-aware Feature
+              Enhancement for Fine-Grained Visual Categorization
+            </h3>
+            <p>
+              <b>Hongbo Sun</b>, Xiangteng He, Jinglin Xu and Yuxin Peng<br />
+              <i>IEEE Transactions on Image Processing (TIP), Vol. 33, pp.
+                5312–5326, 2024. (CCF A)</i>
+              [<a href="https://ieeexplore.ieee.org/abstract/document/10684043" target="_blank"><b>Paper</b></a>]
+            </p>
           </div>
+        </div>
 
 
-          <div class="paper">
-            <img src="images/finefmpl.png" alt="FineFMPL" />
-            <div>
-              <h3>
-                FineFMPL: Fine-grained Feature Mining Prompt Learning for
-                Few-Shot Class Incremental Learning
-              </h3>
-              <p>
-                <b>Hongbo Sun</b>, Jiahuan Zhou, Xiangteng He, Jinglin Xu and
-                Yuxin Peng<br />
-                <i
-                  >Proceedings of the 33rd International Joint Conference on
-                  Artificial Intelligence (IJCAI), Jeju, South Korea, Aug. 3-9,
-                  2024. (CCF A)</i
-                >[<a
-                  href="https://www.ijcai.org/proceedings/2024/0144.pdf"
-                  target="_blank"
-                  ><b>Paper</b></a
-                >]&nbsp;[<a
-                  href="https://github.com/PKU-ICST-MIPL/FineFMPL_IJCAI2024"
-                  target="_blank"
-                  ><b>Code</b></a
-                >]
-              </p>
-            </div>
+        <div class="paper">
+          <img src="images/finefmpl.png" alt="FineFMPL" />
+          <div>
+            <h3>
+              FineFMPL: Fine-grained Feature Mining Prompt Learning for
+              Few-Shot Class Incremental Learning
+            </h3>
+            <p>
+              <b>Hongbo Sun</b>, Jiahuan Zhou, Xiangteng He, Jinglin Xu and
+              Yuxin Peng<br />
+              <i>Proceedings of the 33rd International Joint Conference on
+                Artificial Intelligence (IJCAI), Jeju, South Korea, Aug. 3-9,
+                2024. (CCF A)</i>[<a href="https://www.ijcai.org/proceedings/2024/0144.pdf"
+                target="_blank"><b>Paper</b></a>]&nbsp;[<a href="https://github.com/PKU-ICST-MIPL/FineFMPL_IJCAI2024"
+                target="_blank"><b>Code</b></a>]
+            </p>
           </div>
+        </div>
 
 
-          <div class="paper">
-            <img
-              src="images/vlprompt.png"
-              alt="Fine-Grained Visual Prompt Learning"
-            />
-            <div>
-              <h3>
-                Fine-Grained Visual Prompt Learning of Vision-Language Models
-                for Image Recognition
-              </h3>
-              <p>
-                <b>Hongbo Sun</b>, Xiangteng He, Jiahuan Zhou and Yuxin Peng<br />
-                <i
-                  >Proceedings of the 31st ACM International Conference on
-                  Multimedia (ACM MM), Ottawa, Canada, Oct. 29-Nov. 3, 2023.
-                  (CCF A)</i
-                >
-                [<a
-                  href="https://zhoujiahuan1991.github.io/pub/MM2023_Finegrained.pdf"
-                  target="_blank"
-                  ><b>Paper</b></a
-                >]
-              </p>
-            </div>
+        <div class="paper">
+          <img src="images/vlprompt.png" alt="Fine-Grained Visual Prompt Learning" />
+          <div>
+            <h3>
+              Fine-Grained Visual Prompt Learning of Vision-Language Models
+              for Image Recognition
+            </h3>
+            <p>
+              <b>Hongbo Sun</b>, Xiangteng He, Jiahuan Zhou and Yuxin Peng<br />
+              <i>Proceedings of the 31st ACM International Conference on
+                Multimedia (ACM MM), Ottawa, Canada, Oct. 29-Nov. 3, 2023.
+                (CCF A)</i>
+              [<a href="https://zhoujiahuan1991.github.io/pub/MM2023_Finegrained.pdf" target="_blank"><b>Paper</b></a>]
+            </p>
           </div>
+        </div>
 
-          <div class="paper">
-            <img src="images/hcl.png" alt="HCL" />
-            <div>
-              <h3>
-                HCL: Hierarchical Consistency Learning for Webly Supervised
-                Fine-Grained Recognition
-              </h3>
-              <p>
-                <b>Hongbo Sun</b>, Xiangteng He, Jinglin Xu and Yuxin Peng<br />
-                <i
-                  >IEEE Transactions on Multimedia (TMM), Vol. 26, pp.
-                  5108–5119, 2024. (CCF B)</i
-                >
-                [<a
-                  href="https://hexiangteng.github.io/papers/TMM%202023.pdf"
-                  target="_blank"
-                  ><b>Paper</b></a
-                >]&nbsp;[<a
-                  href="https://github.com/PKU-ICST-MIPL/HCL_TMM2023"
-                  target="_blank"
-                  ><b>Code</b></a
-                >]&nbsp;[<a
+        <div class="paper">
+          <img src="images/hcl.png" alt="HCL" />
+          <div>
+            <h3>
+              HCL: Hierarchical Consistency Learning for Webly Supervised
+              Fine-Grained Recognition
+            </h3>
+            <p>
+              <b>Hongbo Sun</b>, Xiangteng He, Jinglin Xu and Yuxin Peng<br />
+              <i>IEEE Transactions on Multimedia (TMM), Vol. 26, pp.
+                5108–5119, 2024. (CCF B)</i>
+              [<a href="https://hexiangteng.github.io/papers/TMM%202023.pdf" target="_blank"><b>Paper</b></a>]&nbsp;[<a
+                href="https://github.com/PKU-ICST-MIPL/HCL_TMM2023" target="_blank"><b>Code</b></a>]&nbsp;[<a
                   href="https://mp.weixin.qq.com/s/-BGHEXejE_1DjovYW7XagQ"
                   target="_blank"
                   ><b>中文解读</b></a
                 >]
-              </p>
-            </div>
+            </p>
           </div>
+        </div>
 
-          <div class="paper">
-            <img src="images/simtrans.png" alt="SIM-Trans" />
-            <div>
-              <h3>
-                SIM-Trans: Structure Information Modeling Transformer for
-                Fine-grained Visual Categorization
-              </h3>
-              <p>
-                <b>Hongbo Sun</b>, Xiangteng He and Yuxin Peng<br />
-                <i
-                  >Proceedings of the 30th ACM International Conference on
-                  Multimedia (ACM MM), Lisbon, Portugal, Oct. 10-14, 2022. (CCF
-                  A, Oral)</i
-                >
-                [<a href="https://arxiv.org/pdf/2208.14607" target="_blank"
-                  ><b>Paper</b></a
-                >][<a
-                  href="https://github.com/PKU-ICST-MIPL/SIM-Trans_ACMMM2022"
-                  target="_blank"
-                  ><b>Code</b></a
-                >]
-              </p>
-            </div>
+        <div class="paper">
+          <img src="images/simtrans.png" alt="SIM-Trans" />
+          <div>
+            <h3>
+              SIM-Trans: Structure Information Modeling Transformer for
+              Fine-grained Visual Categorization
+            </h3>
+            <p>
+              <b>Hongbo Sun</b>, Xiangteng He and Yuxin Peng<br />
+              <i>Proceedings of the 30th ACM International Conference on
+                Multimedia (ACM MM), Lisbon, Portugal, Oct. 10-14, 2022. (CCF
+                A, Oral)</i>
+              [<a href="https://arxiv.org/pdf/2208.14607" target="_blank"><b>Paper</b></a>][<a
+                href="https://github.com/PKU-ICST-MIPL/SIM-Trans_ACMMM2022" target="_blank"><b>Code</b></a>]
+            </p>
           </div>
+        </div>
 
-          <div class="paper">
-            <img
-              src="images/dualmodal.png"
-              alt="Dual-Modal Adaptive Online Prompting"
-            />
-            <div>
-              <h3>
-                Dual-Modal Adaptive Online Prompting and Knowledge Retention for
-                Test-Time Adaptation
-              </h3>
-              <p>
-                Zichen Liu, <b>Hongbo Sun</b>, Yuxin Peng and Jiahuan Zhou<br />
-                <i
-                  >Proceedings of the 38th AAAI Conference on Artificial
-                  Intelligence (AAAI), Vancouver, Canada, Feb. 20-27, 2024. (CCF
-                  A)</i
-                >
-                [<a
-                  href="https://ojs.aaai.org/index.php/AAAI/article/view/29320"
-                  target="_blank"
-                  ><b>Paper</b></a
-                >]
-              </p>
-            </div>
+        <div class="paper">
+          <img src="images/dualmodal.png" alt="Dual-Modal Adaptive Online Prompting" />
+          <div>
+            <h3>
+              Dual-Modal Adaptive Online Prompting and Knowledge Retention for
+              Test-Time Adaptation
+            </h3>
+            <p>
+              Zichen Liu, <b>Hongbo Sun</b>, Yuxin Peng and Jiahuan Zhou<br />
+              <i>Proceedings of the 38th AAAI Conference on Artificial
+                Intelligence (AAAI), Vancouver, Canada, Feb. 20-27, 2024. (CCF
+                A)</i>
+              [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/29320" target="_blank"><b>Paper</b></a>]
+            </p>
           </div>
-<!-- 
+        </div>
+        <!-- 
           <div class="paper">
             <img src="images/videotext.png" alt="Video Text Detection" />
             <div>
@@ -383,7 +396,7 @@
               </p>
             </div>
           </div> -->
-<!-- 
+        <!-- 
           <div class="paper">
             <div>
               <h3>基于FCM的复杂背景下人工文本提取方法</h3>
@@ -397,10 +410,10 @@
               </p>
             </div>
           </div> -->
-        
-        
-        </section>
-<!-- 
+
+
+      </section>
+      <!-- 
         <section id="related-work">
           <h2>📓 Related Work</h2>
           <div class="work">
@@ -472,41 +485,42 @@
           </div>
         </section> -->
 
-        <section id="education">
-          <h2>📖 教育经历</h2>
-          <ul>
-            <li>2019.09-2024.07 北京大学 计算机应用技术 博士学位</li>
-            <li>2016.09-2019.01 天津大学 信息与通信工程 硕士学位</li>
-            <li>2012.09-2016.07 天津大学 电子信息工程 学士学位</li>
-          </ul>
-        </section>
+      <section id="education">
+        <h2>📖 教育经历</h2>
+        <ul>
+          <li>2019.09-2024.07 北京大学 计算机应用技术 博士学位</li>
+          <li>2016.09-2019.01 天津大学 信息与通信工程 硕士学位</li>
+          <li>2012.09-2016.07 天津大学 电子信息工程 学士学位</li>
+        </ul>
+      </section>
 
-        <section id="honors">
-          <h2>🎖 奖励与荣誉</h2>
-          <ul>
-            <li>入选2025年度北京“高创计划”青年人才托举工程</li>
-            <li>北京图象图形学学会BSIG 2024优秀博士学位论文奖</li>
-            <li>
-              2019,
-              2020年国际视频分析权威评测TRECVID视频样例搜索比赛，均获第一名
-            </li>
-            <li>
-              京东方（BOE）创新挑战赛全国总决赛三等奖，京东方（BOE）创客实验室Special
-              Offer
-            </li>
-          </ul>
-        </section>
+      <section id="honors">
+        <h2>🎖 奖励与荣誉</h2>
+        <ul>
+          <li>入选2025年度北京“高创计划”青年人才托举工程</li>
+          <li>北京图象图形学学会BSIG 2024优秀博士学位论文奖</li>
+          <li>
+            2019,
+            2020年国际视频分析权威评测TRECVID视频样例搜索比赛，均获第一名
+          </li>
+          <li>
+            京东方（BOE）创新挑战赛全国总决赛三等奖，京东方（BOE）创客实验室Special
+            Offer
+          </li>
+        </ul>
+      </section>
 
-        <section id="activities">
-          <h2>📝 学术服务</h2>
-          <ul>
-            <li>AAAI程序委员会委员</li>
-            <li>国际顶级会议和期刊（CVPR、ICCV、AAAI、IEEE TMM等）审稿人</li>
-          </ul>
-        </section>
-      </main>
-    </div>
+      <section id="activities">
+        <h2>📝 学术服务</h2>
+        <ul>
+          <li>AAAI程序委员会委员</li>
+          <li>国际顶级会议和期刊（CVPR、ICCV、AAAI、IEEE TMM等）审稿人</li>
+        </ul>
+      </section>
+    </main>
+  </div>
 
-    <footer>© 2025 电信人工智能研究院 孙宏博</footer>
-  </body>
+  <footer>© 2025 电信人工智能研究院 孙宏博</footer>
+</body>
+
 </html>
