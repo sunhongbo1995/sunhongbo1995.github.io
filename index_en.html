@@ -111,12 +111,18 @@
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       }
 
+
+
       .paper img {
         width: 200px;
-        height: 125px;
-        object-fit: fill;
+        height: auto;
+        max-height: 150px;
+        object-fit: contain;
         border-radius: 5px;
+        flex-shrink: 0;
       }
+
+
 
       .paper h3 {
         margin: 0;
